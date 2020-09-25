@@ -4,20 +4,45 @@
 html{
     font-family: 'Noto Sans KR', sans-serif;
 }
-.header {
+.nav {
     height: 8em;
     display: flex;
     align-items: center;
-    justify-content: left;
-    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
-    
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background-color: white;
 }
+
 
 .logo-img {
     height: 5em;
     vertical-align: middle;
-    margin-left:  90px;
+    margin-left:  1px;
 }
+
+.header {
+    background-image: url("../img/background.jpg");
+    height: calc(var(--vh, 1vh) * 100);
+    background-repeat: no-repeat;
+    opacity:0.5!important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header-container{
+    vertical-align: middle;
+}
+
+.header-h{
+    font-size: 80px;
+    font-weight: 800;
+    opacity: 1;
+}
+
 
 .section {
     border-color: red;
