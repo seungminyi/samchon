@@ -1,0 +1,68 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;600;700&display=swap);
+
+html{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.header {
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    
+}
+
+.logo-img {
+    height: 5em;
+    vertical-align: middle;
+    margin-left:  90px;
+}
+
+.section {
+    border-color: red;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    padding: 5em;
+}
+
+.section-icon{
+    height: 90px;
+    width: 90px;
+}
+
+.section-h{
+    margin-top: 50px;
+    font-size: 1.9em;
+    opacity: 0.9;
+}
+
+.section-c{
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+.section-b{
+    font-size: 35px;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+.call-button{
+    width: 500px;
+    height: 120px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: solid 2px;
+    outline: 20;
+    background-color: white;
+    font-size: 40px;
+    border-color:#f2ae1d;
+    color: #fc8a00;
+}
