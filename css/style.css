@@ -37,12 +37,19 @@ html{
     vertical-align: middle;
 }
 
+
 .header-h{
     font-size: 80px;
     font-weight: 800;
     opacity: 1;
 }
 
+.typing {  
+         display: inline-block; 
+          animation-name: cursor; 
+          animation-duration: 0.3s; 
+          animation-iteration-count: infinite; 
+        } 
 
 .section {
     margin: 5px;
@@ -76,6 +83,7 @@ html{
     font-size: 35px;
     opacity: 0.9;
     margin-top: 20px;
+    line-height: 50px;
 }
 
 .call-button{
@@ -90,3 +98,9 @@ html{
     border-color:#f2ae1d;
     color: #fc8a00;
 }
+
+@keyframes cursor{ 
+    0%{border-right: 1px solid #fff} 
+    50%{border-right: 1px solid #000} 
+    100%{border-right: 1px solid #fff} 
+  }
